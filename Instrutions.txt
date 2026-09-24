@@ -1,0 +1,30 @@
+git clone repo-url
+
+Do this after cloning the repo
+
+git switch main
+git pull origin main
+
+git switch -c feature-login
+
+# code
+
+git add .
+git commit -m "Added login page"
+
+git push origin feature-login
+
+Then:
+
+Create Pull Request
+
+This workflow means:
+
+Clone the repository.
+Switch to the latest main branch.
+Pull recent changes.
+Create a new feature branch (feature-login).
+Write your code.
+Commit your changes.
+Push the feature branch to GitHub.
+Create a Pull Request (PR) to merge it into main.\
