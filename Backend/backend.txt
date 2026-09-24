@@ -1,1 +1,5 @@
 Note what you have developed
+
+Features to implement
+1. Connect leetcode to server.js
+2. perfrom http methods on fetched data
