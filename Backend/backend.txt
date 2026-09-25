@@ -1,5 +1,49 @@
 Note what you have developed
 
-Features to implement
-1. Connect leetcode to server.js
-2. perfrom http methods on fetched data
+Features Implemented
+
+1. Connected LeetCode Profile API to Node.js Backend
+   - Created Express server using ES Modules
+   - Configured routes and controllers
+   - Connected backend to LeetCode GraphQL API using Axios
+   - Dynamically fetches profile data using username parameter
+
+   Endpoint:
+   GET /api/leetcode/:username
+
+   Example:
+   GET /api/leetcode/Sp80rz8mxi
+
+2. Fetch LeetCode Profile Details
+   - Username
+   - Ranking
+   - Reputation
+   - Solved Problems Statistics
+     • Easy
+     • Medium
+     • Hard
+
+3. Implemented HTTP GET Method
+   - Client sends request through Postman
+   - Backend fetches data from LeetCode GraphQL API
+   - Returns structured JSON response
+
+Project Structure
+
+src/
+├── controllers/
+│   └── leetcodeController.js
+│
+├── routes/
+│   └── leetcodeRoutes.js
+│
+└── server.js
+
+Tech Stack Used
+
+- Node.js
+- Express.js
+- Axios
+- GraphQL
+- ES Modules
+- Postman
